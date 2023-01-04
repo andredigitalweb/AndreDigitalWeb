@@ -19,21 +19,15 @@
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-                <NuxtLink to="/" class="inline-block py-2 px-4 text-black font-bold no-underline">Active</NuxtLink>
+              <NuxtLink to="/" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">Home</NuxtLink>
             </li>
             <li class="mr-3">
-                <NuxtLink to="/" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">link</NuxtLink>
+                <NuxtLink to="/about" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">About</NuxtLink>
             </li>
             <li class="mr-3">
-                <NuxtLink to="/" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">link</NuxtLink>
+                <NuxtLink to="/contact" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">Contact</NuxtLink>
             </li>
           </ul>
-          <button
-            id="navAction"
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-          >
-            Action
-          </button>
         </div>
       </div>
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
