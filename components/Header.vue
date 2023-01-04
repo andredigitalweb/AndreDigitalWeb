@@ -1,12 +1,17 @@
 <template>
-<!--Nav-->
-<div class="leading-normal tracking-normal text-white gradient">
-<nav id="header" class="fixed w-full z-30 top-0 text-white bg-white">
-      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+  <!--Nav-->
+  <div class="leading-normal tracking-normal text-white gradient">
+    <nav id="header" class="fixed w-full z-30 top-0 text-white bg-white">
+      <div
+        class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
+      >
         <div class="pl-4 flex items-center">
-            <NuxtLink to="/" class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
-                <img src="~/assets/logos/22.png" :width="70" alt="banner" />
-            </NuxtLink>
+          <NuxtLink
+            to="/"
+            class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+          >
+            <img src="~/assets/logos/22.png" :width="70" alt="banner" />
+          </NuxtLink>
         </div>
         <!-- <div class="block lg:hidden pr-4">
           <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
@@ -16,27 +21,42 @@
             </svg>
           </button>
         </div> -->
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+        <div
+          class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+          id="nav-content"
+        >
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <NuxtLink to="/" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">Home</NuxtLink>
+              <NuxtLink
+                to="/"
+                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                >Home</NuxtLink
+              >
             </li>
             <li class="mr-3">
-                <NuxtLink to="/about" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">About</NuxtLink>
+              <NuxtLink
+                to="/about"
+                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                >About</NuxtLink
+              >
             </li>
             <li class="mr-3">
-                <NuxtLink to="/contact" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">Contact</NuxtLink>
+              <NuxtLink
+                to="/contact"
+                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                >Contact</NuxtLink
+              >
             </li>
           </ul>
         </div>
       </div>
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
     </nav>
-</div>
+  </div>
 </template>
 
 <style scoped>
 .header-bg {
-    background: #0F193E;
+  background: #0f193e;
 }
 </style>
