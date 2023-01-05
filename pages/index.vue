@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Hero />
     <Banner />
     <Features />
     <Plans />
@@ -10,6 +11,6 @@
 
 <style>
 .gradient {
-  background: linear-gradient(90deg, #0f193e 0%, #263881 100%);
+  background: linear-gradient(90deg, #263881 0%, #0f193e 100%);
 }
 </style>
