@@ -24,12 +24,12 @@
           </button>
         </div>
         <div class="w-full sm:w-1/2 p-6">
-          <img class="w-full z-50" src="~/assets/mobile/12.png" />
+          <img class="z-50" src="~/assets/6.png" />
         </div>
       </div>
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-full sm:w-1/2 p-6 mt-6">
-          <img class="w-full z-50" src="~/assets/mobile/13.png" />
+          <img class="z-50" src="~/assets/mobile/13.png" />
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">

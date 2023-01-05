@@ -25,7 +25,7 @@
             </p>
           </a>
 
-          <p class="text-gray-200 text-base px-6 mb-5">- sit amet</p>
+          <p class="text-gray-700 text-base px-6 mb-5">- sit amet</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
@@ -42,7 +42,7 @@
             </p>
           </a>
 
-          <p class="text-gray-200 text-base px-6 mb-5">- sit amet</p>
+          <p class="text-gray-700 text-base px-6 mb-5">- sit amet</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
@@ -59,7 +59,7 @@
             </p>
           </a>
 
-          <p class="text-gray-200 text-base px-6 mb-5">- sit amet</p>
+          <p class="text-gray-700 text-base px-6 mb-5">- sit amet</p>
         </div>
       </div>
     </div>

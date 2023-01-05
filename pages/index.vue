@@ -10,6 +10,6 @@
 
 <style>
 .gradient {
-  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  background: linear-gradient(90deg, #0f193e 0%, #263881 100%);
 }
 </style>

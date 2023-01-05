@@ -1,7 +1,7 @@
 <template>
   <!--Nav-->
   <div class="leading-normal tracking-normal text-white gradient">
-    <nav id="header" class="fixed w-full z-30 top-0 text-white bg-white">
+    <nav id="header" class="fixed shadow w-full z-30 top-0 text-white bg-white">
       <div
         class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
       >
