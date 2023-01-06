@@ -2,9 +2,10 @@
   <div>
     <Hero />
     <Banner />
+    <WhatWeOffer />
+    <WhyUs />
     <Features />
     <Plans />
-    <Testimonial />
     <CalltoAction />
   </div>
 </template>

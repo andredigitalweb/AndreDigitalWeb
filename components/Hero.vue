@@ -1,6 +1,6 @@
 <template>
     <!--Hero-->
-    <section class="banner-bg mx-auto py-8">
+    <section class="bg-no-repeat bg-cover bg-center banner-bg mx-auto py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <div class="w-full mb-4">
           <div
@@ -14,7 +14,7 @@
         </div>
 
         <div class="w-5/6 sm:w-1/2 p-6">
-          <p class="my-12 title-big font-bold text-white leading-tight">
+          <p class="my-12 title-big font-thin text-white leading-tight">
             Leave the tech to us
           </p>
           <button
@@ -32,7 +32,7 @@
   .banner-bg {
     background-color: #0f193e;
     background-image: url("~assets/3.png");
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
   }
 
   .title-big {
