@@ -4,9 +4,9 @@
     <Banner />
     <WhatWeOffer />
     <WhyUs />
-    <Features />
-    <Plans />
-    <CalltoAction />
+    <AttentionBanner />
+    <WhatClientSay />
+    <TalkToUs />
   </div>
 </template>
 
