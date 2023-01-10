@@ -1,7 +1,7 @@
 <template>
   <!--Nav-->
-  <div class="leading-normal tracking-normal text-white gradient">
-    <nav id="header" class="fixed shadow w-full z-30 top-0 text-white bg-white">
+  <div class="leading-normal tracking-normal">
+    <nav id="header" class="fixed w-full z-30 top-0 text-white">
       <div
         class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
       >
@@ -10,7 +10,7 @@
             to="/"
             class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
           >
-            <img src="~/assets/logos/22.png" :width="70" alt="banner" />
+            <img src="~/assets/images/logos/22.png" :width="70" alt="banner" />
           </NuxtLink>
         </div>
         <!-- <div class="block lg:hidden pr-4">
@@ -29,34 +29,44 @@
             <li class="mr-3">
               <NuxtLink
                 to="/"
-                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                class="inline-block text-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
                 >Home</NuxtLink
               >
             </li>
             <li class="mr-3">
               <NuxtLink
                 to="/about"
-                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                class="inline-block text-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
                 >About</NuxtLink
               >
             </li>
             <li class="mr-3">
               <NuxtLink
                 to="/contact"
-                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                class="inline-block text-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
                 >Contact</NuxtLink
               >
             </li>
           </ul>
         </div>
       </div>
-      <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+      <!-- <hr class="border-b border-gray-100 opacity-25 my-0 py-0" /> -->
     </nav>
   </div>
 </template>
 
-<style scoped>
+<style>
+/* body {
+  font-family: "Agrandir", Fallback, sans-serif;
+} */
+
 .header-bg {
   background: #0f193e;
+}
+
+.title-big {
+  font-family: "Agrandir", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  font-size: 60px;
 }
 </style>

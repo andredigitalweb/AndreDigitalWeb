@@ -9,7 +9,7 @@
               to="/"
               class="text-blue-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
             >
-              <img src="~/assets/logos/24.png" :width="140" alt="banner" />
+              <img src="~/assets/images/logos/24.png" :width="140" alt="banner" />
             </NuxtLink>
           </div>
           <div class="flex-1">

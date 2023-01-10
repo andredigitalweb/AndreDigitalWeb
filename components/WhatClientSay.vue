@@ -2,12 +2,12 @@
   <section class="bg-white border-b py-8">
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h2
-        class="w-full my-2 text-5xl font-thin leading-tight text-center text-gray-800"
+        class="w-full my-2 title-big text-blue-700 text-center"
       >
         What our clients say
       </h2>
       <div class="w-full mx-auto p-6">
-        <img class="mx-auto z-50" src="~/assets/whatclientsay.png" />
+        <img class="mx-auto z-50" src="~/assets/images/whatclientsay.png" />
       </div>
       <div class="w-full mb-4">
         <div

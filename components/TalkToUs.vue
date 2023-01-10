@@ -7,7 +7,7 @@
 
       <div class="flex flex-wrap">
         <div class="w-full p-6">
-          <p class="my-12 title-big font-thin text-white centre">Talk to us</p>
+          <p class="my-12 title-big text-white centre">Talk to us</p>
           <p class="my-12 font-thin text-2xl text-white leading-tight">
             Feel free to call, email, or hit us up on our social media accounts.
           </p>
@@ -25,7 +25,7 @@
 <style scoped>
 .banner-bg {
   background-color: #0f193e;
-  background-image: url("~assets/2.png");
+  background-image: url("~assets/images/2.png");
   /* background-repeat: no-repeat; */
 }
 

@@ -2,7 +2,7 @@
     <section class="bg-white border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2
-          class="w-full my-2 text-5xl font-thin leading-tight text-center text-gray-800"
+          class="w-full my-2 title-big text-blue-700 text-center"
         >
           Why Andre Digital Web Services?
         </h2>
@@ -15,7 +15,7 @@
           <div class="flex-1 overflow-hidden">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full mx-auto sm:w-1/2 p-6">
-                <img class="mx-auto z-50" src="~/assets/mobile/12.png" />
+                <img class="mx-auto z-50" src="~/assets/images/mobile/12.png" />
               </div>
               <div class="w-full font-regular text-2xl text-gray-800 px-6 mt-8">
                 Quality Services
@@ -30,7 +30,7 @@
           <div class="flex-1 overflow-hidden">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full mx-auto sm:w-1/2 p-6">
-                <img class="mx-auto z-50" src="~/assets/mobile/13.png" />
+                <img class="mx-auto z-50" src="~/assets/images/mobile/13.png" />
               </div>
               <div class="w-full font-regular text-2xl text-gray-800 px-6 mt-8">
                 Value for Investment
@@ -45,7 +45,7 @@
           <div class="flex-1 overflow-hidden">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full mx-auto sm:w-1/2 p-6">
-                <img class="mx-auto z-50" src="~/assets/mobile/14.png" />
+                <img class="mx-auto z-50" src="~/assets/images/mobile/14.png" />
               </div>
               <div class="w-full font-regular text-2xl text-gray-800 px-6 mt-8">
                 Client Satisfaction

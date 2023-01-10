@@ -3,7 +3,7 @@
     <div class="container max-w-5xl mx-auto m-8">
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-full sm:w-1/2 p-6 mt-6">
-          <img class="w-full md:w-4/5 z-50" src="~/assets/mobile/8.png" />
+          <img class="w-full md:w-4/5 z-50" src="~/assets/images/mobile/8.png" />
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">

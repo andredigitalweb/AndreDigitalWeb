@@ -1,16 +1,16 @@
 <template>
     <!--Hero-->
-    <section class="bg-no-repeat bg-cover bg-center banner-bg mx-auto py-8">
-      <div class="container max-w-5xl mx-auto m-8">
-        <div class="w-full mb-4">
+    <section class="bg-no-repeat bg-cover bg-center banner-bg mx-auto py-12">
+      <div class="container max-w-5xl mx-auto m-8 py-12">
+        <div class="w-full mb-4 py-12">
           <div
-            class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"
+            class="h-1 mx-auto w-64 opacity-25 my-0 rounded-t py-12"
           ></div>
         </div>
 
       <div class="flex flex-wrap">
-        <div class="w-full h-full p-6">
-          <p class="mt-22 title-big font-bold italic text-white leading-tight">
+        <div class="w-full h-full px-6 py-22">
+          <p class="h-full mt-22 title-big text-white leading-tight">
             High growth, High quality and High value to your Investment. An investment that is worth it.
           </p>
         </div>
@@ -22,14 +22,7 @@
   <style scoped>
   .banner-bg {
     background-color: #0f193e;
-    background-image: url("~assets/17.png");
-    /* background-repeat: no-repeat; */
-  }
-
-  .title-big {
-    margin-top: 300px;
-    font-size: 70px;
-    text-align: center;
+    background-image: url("~assets/images/17.png");
   }
   </style>
   

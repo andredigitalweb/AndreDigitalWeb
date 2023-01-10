@@ -1,42 +1,36 @@
 <template>
-    <!--Hero-->
-    <section class="bg-no-repeat bg-cover bg-center banner-bg mx-auto py-8">
-      <div class="container max-w-5xl mx-auto m-8">
-        <div class="w-full mb-4">
-          <div
-            class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"
-          ></div>
-        </div>
+  <!--Hero-->
+  <section class="bg-no-repeat bg-cover bg-center banner-bg mx-auto py-8">
+    <div class="container max-w-5xl mx-auto m-8">
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
 
       <div class="flex flex-wrap">
         <div class="w-full sm:w-1/2 p-6">
-          <!-- <img class="z-50" src="~/assets/6.png" /> -->
+          <!-- <img class="z-50" src="~/assets/images/6.png" /> -->
         </div>
 
-        <div class="w-5/6 sm:w-1/2 p-6">
-          <p class="my-12 title-big font-thin text-white leading-tight">
+        <div class="w-5/6 sm:w-1/2 p-6 my-12">
+          <p class="my-12 title-big text-white leading-tight">
             Leave the tech to us
           </p>
-          <button
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-          >
-            Learn more
-          </button>
+          <nuxt-link :to="{ path: '/',hash:'#whatweoffer'}" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Learn More</nuxt-link>
         </div>
       </div>
-      </div>
-    </section>
-  </template>
-  
-  <style scoped>
-  .banner-bg {
-    background-color: #0f193e;
-    background-image: url("~assets/3.png");
-    /* background-repeat: no-repeat; */
-  }
+    </div>
+  </section>
+</template>
 
-  .title-big {
-    font-size: 100px;
-  }
-  </style>
-  
+<script>
+export default {
+  scrollToTop: true,
+};
+</script>
+
+<style scoped>
+.banner-bg {
+  background-color: #0f193e;
+  background-image: url("~assets/images/3.png");
+}
+</style>
