@@ -1,7 +1,10 @@
 <template>
   <!--Nav-->
   <div class="leading-normal tracking-normal">
-    <nav id="header" class="fixed w-full z-30 top-0 text-white">
+    <nav
+      id="header"
+      class="fixed w-full bg-no-repeat bg-cover header-bg z-30 top-0 text-white"
+    >
       <div
         class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
       >
@@ -56,12 +59,12 @@
 </template>
 
 <style>
-/* body {
-  font-family: "Agrandir", Fallback, sans-serif;
-} */
+body {
+  font-family: "Lato", "Agrandir", Fallback, sans-serif;
+}
 
 .header-bg {
-  background: #0f193e;
+  background-image: url("~assets/images/2.png");
 }
 
 .title-big {

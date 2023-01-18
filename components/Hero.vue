@@ -30,7 +30,6 @@ export default {
 
 <style scoped>
 .banner-bg {
-  background-color: #0f193e;
   background-image: url("~assets/images/3.png");
 }
 </style>

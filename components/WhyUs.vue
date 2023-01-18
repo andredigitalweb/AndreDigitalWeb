@@ -17,10 +17,10 @@
               <div class="w-full mx-auto sm:w-1/2 p-6">
                 <img class="mx-auto z-50" src="~/assets/images/mobile/12.png" />
               </div>
-              <div class="w-full font-regular text-2xl text-gray-800 px-6 mt-8">
+              <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
                 Quality Services
               </div>
-              <p class="text-gray-800 text-base px-6 mb-5">
+              <p class="text-gray-800 text-center px-6 mb-5">
                 No matter where you are, we've got you covered.
               </p>
             </a>
@@ -32,10 +32,10 @@
               <div class="w-full mx-auto sm:w-1/2 p-6">
                 <img class="mx-auto z-50" src="~/assets/images/mobile/13.png" />
               </div>
-              <div class="w-full font-regular text-2xl text-gray-800 px-6 mt-8">
+              <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
                 Value for Investment
               </div>
-              <p class="text-gray-800 text-base px-6 mb-5">
+              <p class="text-gray-800 text-center px-6 mb-5">
                 Virtual Assistance. Talk to us about any concerns, 24/7.
               </p>
             </a>
@@ -47,10 +47,10 @@
               <div class="w-full mx-auto sm:w-1/2 p-6">
                 <img class="mx-auto z-50" src="~/assets/images/mobile/14.png" />
               </div>
-              <div class="w-full font-regular text-2xl text-gray-800 px-6 mt-8">
+              <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
                 Client Satisfaction
               </div>
-              <p class="text-gray-800 text-base px-6 mb-5">
+              <p class="text-gray-800 text-center px-6 mb-5">
                 Easy peasy UI. Our Interface is simple and easy to use.
               </p>
             </a>

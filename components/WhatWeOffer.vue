@@ -17,10 +17,10 @@
             <div class="w-full mx-auto sm:w-1/2 p-6">
               <img class="mx-auto z-50" src="~/assets/images/weoffer/social.png" />
             </div>
-            <div class="w-full font-regular text-2xl text-gray-800 px-6 mt-8">
+            <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               Social Media Marketing
             </div>
-            <p class="text-gray-800 text-base px-6 mb-5">
+            <p class="text-gray-800 text-center px-6 mb-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
@@ -33,10 +33,10 @@
             <div class="w-full mx-auto sm:w-1/2 p-6">
               <img class="mx-auto z-50" src="~/assets/images/weoffer/ios.png" />
             </div>
-            <div class="w-full font-regular text-2xl text-gray-800 px-6 mt-8">
+            <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               iOS App Development
             </div>
-            <p class="text-gray-800 text-base px-6 mb-5">
+            <p class="text-gray-800 text-center px-6 mb-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
@@ -49,10 +49,10 @@
             <div class="w-full mx-auto sm:w-1/2 p-6">
               <img class="mx-auto z-50" src="~/assets/images/weoffer/web.png" />
             </div>
-            <div class="w-full font-regular text-2xl text-gray-800 px-6 mt-8">
+            <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               Web Development
             </div>
-            <p class="text-gray-800 text-base px-6 mb-5">
+            <p class="text-gray-800 text-center px-6 mb-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>

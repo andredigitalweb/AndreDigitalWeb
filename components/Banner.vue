@@ -1,9 +1,9 @@
 <template>
   <!--Hero-->
   <section class="border-b">
-    <div class="container max-w-5xl mx-auto">
+    <div class="container w-full mx-auto">
       <div class="flex flex-wrap">
-        <div class="w-5/6 sm:w-1/2 py-6">
+        <div class="w-5/6 sm:w-1/2 p-6">
           <h1 class="my-4 title-big leading-tight text-blue-700">The ADWS Way</h1>
           <p class="leading-normal text-xl text-gray-600">
             <b>Our mission:</b> Businesses and marketing are loyal friends. We
@@ -19,7 +19,7 @@
             small and medium based compnanies based in Goa.
           </p>
         </div>
-        <div class="w-full sm:w-1/2 px-6">
+        <div class="w-full sm:w-1/2 p-6">
           <img class="z-50" src="~/assets/images/6.png" />
         </div>
       </div>

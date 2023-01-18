@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white border-b py-8 mt-8">
+  <section class="bg-white border-b py-8 mt-8" id="about">
     <div class="container max-w-5xl mx-auto m-8">
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-full sm:w-1/2 p-6 mt-6">
