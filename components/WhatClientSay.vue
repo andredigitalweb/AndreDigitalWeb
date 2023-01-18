@@ -2,17 +2,12 @@
   <section class="bg-white border-b py-8">
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h2
-        class="w-full my-2 title-big text-blue-700 text-center"
+        class="w-full my-2 title-big text-indigo-700 text-center"
       >
         What our clients say
       </h2>
       <div class="w-full mx-auto p-6">
         <img class="mx-auto z-50" src="~/assets/images/whatclientsay.png" />
-      </div>
-      <div class="w-full mb-4">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
       </div>
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 overflow-hidden">
@@ -21,7 +16,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
-            <p class="w-full text-blue-600 font-bold px-6">
+            <p class="w-full text-indigo-600 font-bold px-6">
               Willifred Industries
             </p>
           </a>
@@ -34,7 +29,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
-            <p class="w-full text-blue-600 font-bold px-6">
+            <p class="w-full text-indigo-600 font-bold px-6">
               Elvira Montanez
             </p>
           </a>
@@ -46,7 +41,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
-            <p class="w-full text-blue-600 font-bold px-6">
+            <p class="w-full text-indigo-600 font-bold px-6">
               Buckeroo and Partners
             </p>
         </div>

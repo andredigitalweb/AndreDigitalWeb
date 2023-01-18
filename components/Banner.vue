@@ -4,7 +4,7 @@
     <div class="container w-full mx-auto">
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
-          <h1 class="my-4 title-big leading-tight text-blue-700">The ADWS Way</h1>
+          <h1 class="my-4 title-big leading-tight text-indigo-700">The ADWS Way</h1>
           <p class="leading-normal text-xl text-gray-600">
             <b>Our mission:</b> Businesses and marketing are loyal friends. We
             at Andre Digital Web Services bridge that gap and make it a strong

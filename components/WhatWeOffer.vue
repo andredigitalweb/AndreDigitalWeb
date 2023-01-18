@@ -2,7 +2,7 @@
   <section class="bg-white border-b py-8" id="whatweoffer">
     <div class="container mx-auto flex flex-wrap my-12">
       <h2
-        class="w-full my-2 title-big text-center text-blue-700"
+        class="w-full my-2 title-big text-center text-indigo-700"
       >
         What we offer
       </h2>

@@ -2,7 +2,7 @@
     <section class="bg-white border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2
-          class="w-full my-2 title-big text-blue-700 text-center"
+          class="w-full my-2 title-big text-indigo-700 text-center"
         >
           Why Andre Digital Web Services?
         </h2>
