@@ -11,11 +11,7 @@
           <p class="my-12 font-thin text-2xl text-white leading-tight">
             Feel free to call, email, or hit us up on our social media accounts.
           </p>
-          <button
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 uppercased font-bold my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-          >
-            Contact us
-          </button>
+          <nuxt-link to="/contact" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 uppercased font-bold my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Contact us</nuxt-link>
         </div>
       </div>
     </div>

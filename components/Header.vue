@@ -45,6 +45,13 @@
             </li>
             <li class="mr-3">
               <NuxtLink
+                to="/plans"
+                class="inline-block text-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
+                >Pricing</NuxtLink
+              >
+            </li>
+            <li class="mr-3">
+              <NuxtLink
                 to="/contact"
                 class="inline-block text-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
                 >Contact</NuxtLink

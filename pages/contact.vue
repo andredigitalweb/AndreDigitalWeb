@@ -1,5 +1,6 @@
 <template>
-  <section class="bg-white dark:bg-gray-900 my-8">
+  <div class="pt-8">
+    <section class="bg-white dark:bg-gray-900 my-8">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2
         class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900"
@@ -63,4 +64,5 @@
       </form>
     </div>
   </section>
+  </div>
 </template>

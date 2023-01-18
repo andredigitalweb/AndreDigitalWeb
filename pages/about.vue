@@ -1,5 +1,6 @@
 <template>
-  <section class="bg-white border-b py-8 mt-8" id="about">
+  <div class="pt-8">
+    <section class="bg-white border-b py-8 mt-8" id="about">
     <div class="container max-w-5xl mx-auto m-8">
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-full sm:w-1/2 p-6 mt-6">
@@ -7,7 +8,7 @@
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none my-4">
+            <h3 class="text-4xl text-gray-800 font-bold leading-none my-4">
               About Us
             </h3>
             <p class="text-gray-600 mb-8">
@@ -66,4 +67,5 @@
       </div>
     </div>
   </section>
+  </div>
 </template>

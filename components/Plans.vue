@@ -1,13 +1,13 @@
 <template>
-  <section class="bg-gray-100 py-8">
+  <section class="bg-gray-100 py-8 mt-8">
     <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
       <h2
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
+        class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800"
       >
         Choose Your Plan
       </h2>
       <h4
-        class="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-400"
+        class="w-full my-2 text-xl font-bold leading-tight text-center text-gray-400"
       >
         And get the most effective social media plan
       </h4>
