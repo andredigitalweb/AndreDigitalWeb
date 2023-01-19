@@ -28,6 +28,69 @@
             required
           />
         </div>
+        <div class="justify-end flex-1 items-center">
+        <div class="inline-block">
+          <label
+            for="company"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            >Business name</label
+          >
+          <input
+            type="text"
+            id="company"
+            class="block p-3 w-full text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300"
+            placeholder="Business name"
+            required
+          />
+        </div>
+
+        <div class="inline-block">
+          <label
+            for="contact"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            >Contact number</label
+          >
+          <input
+            type="text"
+            id="contact"
+            class="block p-3 w-full text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300"
+            placeholder="Contact number"
+          />
+        </div>
+      </div>
+
+      <div class="justify-end flex-1 items-center">
+        <div class="inline-block">
+          <label
+            for="contact"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            >Country</label
+          >
+          <input
+            type="text"
+            id="contact"
+            class="block p-3 w-full text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300"
+            placeholder="Country"
+          />
+        </div>
+
+
+
+        <div class="inline-block">
+          <label
+            for="contact"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            >State</label
+          >
+          <input
+            type="text"
+            id="contact"
+            class="block p-3 w-full text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300"
+            placeholder="State"
+          />
+        </div>
+        </div>
+
         <div>
           <label
             for="subject"

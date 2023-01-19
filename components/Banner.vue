@@ -19,7 +19,7 @@
             small and medium based compnanies based in Goa.
           </p>
         </div>
-        <div class="w-full sm:w-1/2 p-6">
+        <div class="w-full sm:w-1/2">
           <img class="z-50" src="~/assets/images/6.png" />
         </div>
       </div>

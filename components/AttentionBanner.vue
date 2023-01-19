@@ -10,8 +10,10 @@
 
       <div class="flex flex-wrap">
         <div class="w-full h-full px-6 py-22">
-          <p class="h-full mt-22 title-big text-white leading-tight">
-            High growth, High quality and High value to your Investment. An investment that is worth it.
+          <p class="h-full mt-22 title-big text-white text-center leading-tight">
+            High growth, High quality &amp;
+            <br/>High value to your Investment.
+            <br/>An investment that is worth it.
           </p>
         </div>
       </div>
@@ -21,7 +23,6 @@
   
   <style scoped>
   .banner-bg {
-    background-color: #0f193e;
     background-image: url("~assets/images/17.png");
   }
   </style>
