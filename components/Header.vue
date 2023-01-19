@@ -60,7 +60,6 @@
           </ul>
         </div>
       </div>
-      <!-- <hr class="border-b border-gray-100 opacity-25 my-0 py-0" /> -->
     </nav>
   </div>
 </template>
@@ -78,5 +77,11 @@ body {
   font-family: "Agrandir", Impact, Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
   font-size: 60px;
+}
+
+@media (max-width: 640px) {
+  .title-big {
+    font-size: 40px;
+  }
 }
 </style>

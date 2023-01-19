@@ -29,7 +29,7 @@
             />
           </div>
           <div class="justify-end flex-1 items-center">
-            <div class="inline-block">
+            <div class="inline-block w-2/3">
               <label
                 for="company"
                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
@@ -44,7 +44,7 @@
               />
             </div>
 
-            <div class="inline-block">
+            <div class="inline-block w-2/3">
               <label
                 for="contact"
                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
@@ -59,19 +59,21 @@
               />
             </div>
 
-            <div class="inline-block">
+            <div class="inline-block w-2/3">
               <label
                 for="company"
                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                 >Plan selected</label
               >
-              <input
-                type="dropdown"
-                id="company"
-                class="block p-3 w-full text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300"
-                placeholder="Plan selected"
-                required
-              />
+              <select
+                id="plans"
+                name="plan"
+                class="block p-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300"
+              >
+                <option value="volvo" selected>Pro Plan</option>
+                <option value="saab">Customised Plan</option>
+                <option value="fiat">Ultimate Plan</option>
+              </select>
             </div>
           </div>
 

@@ -22,7 +22,7 @@
             <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               Social Media Marketing
             </div>
-            <p class="text-gray-800 text-center px-6 mb-5">
+            <p class="text-gray-800 text-center text-md sm:text-lg px-6 mb-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
@@ -41,7 +41,7 @@
             <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               Web Development
             </div>
-            <p class="text-gray-800 text-center px-6 mb-5">
+            <p class="text-gray-800 text-center text-md sm:text-lg px-6 mb-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>

@@ -1,9 +1,12 @@
+
+import WhyAdws from '../components/WhyAdws.vue';
+
 <template>
   <div>
     <Hero />
-    <Banner />
+    <AdwsBanner />
     <WhatWeOffer />
-    <WhyUs />
+    <WhyAdws />
     <AttentionBanner />
     <WhatClientSay />
     <TalkToUs />
