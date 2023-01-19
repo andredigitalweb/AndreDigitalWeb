@@ -1,21 +1,18 @@
 <template>
-  <section class="bg-gray-100 py-8 mt-8">
+  <div class="pt-8">
+  <section class="py-8 mt-8">
     <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
       <h2
-        class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800"
+        class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900"
       >
-        Choose Your Plan
+      Choose Your Plan
       </h2>
-      <h4
-        class="w-full my-2 text-xl font-bold leading-tight text-center text-gray-400"
+      <p
+        class="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl"
       >
-        And get the most effective social media plan
-      </h4>
-      <div class="w-full mb-4">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
-      </div>
+      And get the most effective social media plan
+      </p>
+      
       <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
         <div
           class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4"
@@ -47,11 +44,12 @@
               <span class="text-base">/ month</span>
             </div>
             <div class="flex items-center justify-center">
-              <button
+              <nuxt-link to="/booking"
+              
                 class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
               >
                 Get started
-              </button>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -82,11 +80,11 @@
               <span class="text-base">/ month</span>
             </div>
             <div class="flex items-center justify-center">
-              <button
+              <nuxt-link to="/booking"
                 class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
               >
                 Get started
-              </button>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -120,15 +118,16 @@
               <span class="text-base">/ month</span>
             </div>
             <div class="flex items-center justify-center">
-              <button
+              <nuxt-link to="/booking"
                 class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
               >
                 Get started
-              </button>
+              </nuxt-link>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+</div>
 </template>
