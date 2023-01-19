@@ -88,21 +88,21 @@
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="/"
                   class="no-underline hover:underline text-gray-800 hover:text-indigo-500"
-                  >Official Blog</a
+                  >Home</a
                 >
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="/about"
                   class="no-underline hover:underline text-gray-800 hover:text-indigo-500"
-                  >About Us</a
+                  >About</a
                 >
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="/contact"
                   class="no-underline hover:underline text-gray-800 hover:text-indigo-500"
                   >Contact</a
                 >

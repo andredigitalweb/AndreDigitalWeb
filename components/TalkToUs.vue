@@ -7,11 +7,11 @@
 
       <div class="flex flex-wrap">
         <div class="w-full p-4">
-          <p class="my-12 title-big text-white text-center sm:text-left">
+          <p class="my-6 title-big text-white text-center sm:text-left">
             Talk to us
           </p>
           <p
-            class="my-12 font-thin text-2xl text-white text-center sm:text-left"
+            class="text-2xl text-white text-center sm:text-left"
           >
             Feel free to call, email, or hit us up on our social media accounts.
           </p>
