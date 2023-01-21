@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-white border-b py-8" id="whatweoffer">
+  <section class="border-b py-8" id="whatweoffer">
     <div class="container mx-auto flex flex-wrap my-12">
       <h2
-        class="w-full my-2 title-big text-center text-indigo-700"
+        class="w-full px-2 my-2 title-big text-center text-indigo-700"
       >
         What we offer
       </h2>
@@ -16,8 +16,8 @@
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 overflow-hidden">
           <a href="/plans" class="flex flex-wrap no-underline hover:no-underline">
-            <div class="w-full mx-auto sm:w-1/2">
-              <img class="mx-auto z-50" src="~/assets/images/weoffer/social.png" />
+            <div class="w-full sm:w-1/2 mx-auto">
+              <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/social.png" />
             </div>
             <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               Social Media Marketing
@@ -36,7 +36,7 @@
         <div class="flex-1 overflow-hidden">
           <a href="/plans" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full mx-auto sm:w-1/2">
-              <img class="mx-auto z-50" src="~/assets/images/weoffer/web.png" />
+              <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/web.png" />
             </div>
             <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               Web Development
@@ -55,7 +55,7 @@
         <div class="flex-1 overflow-hidden">
           <a href="/plans" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full mx-auto sm:w-1/2">
-              <img class="mx-auto z-50" src="~/assets/images/weoffer/ios.png" />
+              <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/ios.png" />
             </div>
             <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               iOS App Development

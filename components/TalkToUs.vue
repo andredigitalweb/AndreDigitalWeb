@@ -1,18 +1,12 @@
 <template>
   <section class="bg-no-repeat bg-cover bg-center banner-bg mx-auto py-8">
     <div class="container max-w-5xl mx-auto m-8">
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-
       <div class="flex flex-wrap">
         <div class="w-full p-4">
           <p class="my-6 title-big text-white text-center sm:text-left">
             Talk to us
           </p>
-          <p
-            class="text-2xl text-white text-center sm:text-left"
-          >
+          <p class="text-2xl text-white text-center sm:text-left">
             Feel free to call, email, or hit us up on our social media accounts.
           </p>
 

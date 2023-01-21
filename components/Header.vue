@@ -13,7 +13,7 @@
             to="/"
             class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
           >
-            <img src="~/assets/images/logos/23.png" alt="banner" />
+            <img src="~/assets/images/logos/23.png" class="h-12 mb-2" alt="banner" />
           </NuxtLink>
         </div>
         <!-- <div class="block lg:hidden pr-4">
