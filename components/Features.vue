@@ -24,12 +24,12 @@
           </p>
         </div>
         <div class="w-full sm:w-1/2 p-6">
-          <img class="mx-auto" src="~/assets/images/mobile/14.png" />
+          <img class="mx-auto" src="~/assets/images/14.png" />
         </div>
       </div>
       <div class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-full sm:w-1/2 p-6 mt-6">
-          <img class="mx-auto" src="~/assets/images/mobile/13.png" />
+          <img class="mx-auto" src="~/assets/images/13.png" />
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">

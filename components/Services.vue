@@ -17,7 +17,7 @@
         <div class="flex-1 overflow-hidden">
           <a href="/plans" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full sm:w-1/2 mx-auto">
-              <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/social.png" />
+              <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/8.png" />
             </div>
             <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               Social Media Marketing
@@ -36,7 +36,7 @@
         <div class="flex-1 overflow-hidden">
           <a href="/plans" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full mx-auto sm:w-1/2">
-              <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/web.png" />
+              <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/9.png" />
             </div>
             <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               Web Development
@@ -55,7 +55,7 @@
         <div class="flex-1 overflow-hidden">
           <a href="/plans" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full mx-auto sm:w-1/2">
-              <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/ios.png" />
+              <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/10.png" />
             </div>
             <div class="w-full text-center text-2xl text-gray-800 px-6 mt-4">
               iOS App Development
