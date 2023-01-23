@@ -13,11 +13,10 @@
         <div class="flex-1 bg-white rounded shadow p-4 overflow-hidden">
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <p class="text-gray-800 text-md sm:text-lg px-6 mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              at ipsum eu nunc commodo posuere et sit amet ligula.
+              We are glad working with Andre digital web services, the services are excellent, very helpful and understanding.
             </p>
             <p class="w-full text-indigo-600 text-md sm:text-lg font-bold px-6">
-              Willifred Industries
+              Rego Food products
             </p>
           </a>
         </div>
