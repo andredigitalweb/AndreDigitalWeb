@@ -7,3 +7,8 @@
     font-family: 'Lato';
     src: url('~/assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
   }
+
+  @font-face {
+    font-family: 'Lato-Light';
+    src: url('~/assets/fonts/Lato/Lato-Light.ttf') format('truetype');
+  }
