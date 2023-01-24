@@ -7,7 +7,7 @@ import WhyAdws from '../components/WhyAdws.vue';
     <OurVision />
     <Services />
     <WhyUs />
-    <CallToAction />
+    <CalltoAction />
     <Testimonials />
     <TalkToUs />
   </div>
