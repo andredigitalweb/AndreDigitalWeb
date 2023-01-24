@@ -59,9 +59,3 @@
       </div>
     </section>
   </template>
-  
-<style scoped>
-.title-item {
-
-}
-</style>

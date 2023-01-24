@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-8">
+    <div class="py-8 mt-8 lg:py-16 mx-auto">
         <Plans />
         <TalkToUs />
     </div>

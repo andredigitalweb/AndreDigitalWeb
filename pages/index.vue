@@ -1,6 +1,3 @@
-
-import WhyAdws from '../components/WhyAdws.vue';
-
 <template>
   <div>
     <Hero />
@@ -12,9 +9,3 @@ import WhyAdws from '../components/WhyAdws.vue';
     <TalkToUs />
   </div>
 </template>
-
-<style>
-body {
-  background: #fff;
-}
-</style>

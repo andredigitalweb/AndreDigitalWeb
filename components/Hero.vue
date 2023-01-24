@@ -19,14 +19,3 @@
     </div>
   </section>
 </template>
-
-<style scoped>
-.banner-bg {
-  background-image: url("~/assets/images/2.png");
-}
-</style>
-<!-- <script>
-export default {
-  scrollToTop: true,
-};
-</script> -->
