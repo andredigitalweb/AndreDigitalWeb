@@ -15,7 +15,7 @@
           >
             <!-- https://api.whatsapp.com/send?phone=&text= -->
             <a
-              href="whatsapp://send?phone=8668848427&text="
+              href="whatsapp://send?phone=8668848427&text=Hello%20there%2C%20I%20am%20interested%20in%20your%20services%20and%20would%20like%20to%20get%20in%20touch%20with%20you%20for%20more%20details."
               class="inline-block"
             >
               <span class="pr-2 inline-block"
@@ -49,7 +49,7 @@
 
 <style scoped>
 .banner-bg {
-  background-image: url("~assets/images/2.png");
+  background-image: url("~/assets/images/2.png");
 }
 
 .title-big {
