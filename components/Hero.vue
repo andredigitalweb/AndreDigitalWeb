@@ -22,7 +22,7 @@
 
 <style scoped>
 .banner-bg {
-  background-image: url("~assets/images/2.png");
+  background-image: url("~/assets/images/2.png");
 }
 </style>
 <!-- <script>

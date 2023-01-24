@@ -11,7 +11,7 @@
             <h3 class="text-4xl text-gray-800 font-bold leading-none my-4">
               About Us
             </h3>
-            <p class="text-gray-600 mb-8">
+            <p clascs="text-gray-600 mb-8">
               <b>Our history:</b> Humble beginnings and a desire to provide
               services that help businesses grow, lead us to start a dream.
               Initially we offered free services to help businesses to cope up

@@ -70,7 +70,7 @@ body {
 }
 
 .header-bg {
-  background-image: url("~assets/images/2.png");
+  background-image: url("~/assets/images/2.png");
 }
 
 .title-big {
