@@ -1,2 +1,5 @@
-.nuxt/*
 node_modules/
+.vscode/
+.output/
+.nuxt/
+package-lock.json
