@@ -26,7 +26,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
-            <nuxt-link to="/plans" class="mx-auto details-one hover:underline text-white uppercased font-bold py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Plans</nuxt-link>
+            <nuxt-link to="/plans" class="mx-auto details-one rounded hover:underline text-white uppercased font-bold py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Plans</nuxt-link>
           </a>
         </div>
       </div>
@@ -34,7 +34,7 @@
       <!-- Web Development -->
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 overflow-hidden">
-          <a href="/plans" class="flex flex-wrap no-underline hover:no-underline">
+          <a href="/webplans" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full mx-auto sm:w-1/2">
               <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/9.png" />
             </div>
@@ -45,7 +45,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
-            <nuxt-link to="/plans" class="mx-auto details-two hover:underline text-white uppercased font-bold py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Plans</nuxt-link>
+            <nuxt-link to="/webplans" class="mx-auto details-two rounded hover:underline text-white uppercased font-bold py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Plans</nuxt-link>
           </a>
         </div>
       </div>
@@ -53,7 +53,7 @@
       <!-- iOS Development -->
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 overflow-hidden">
-          <a href="/plans" class="flex flex-wrap no-underline hover:no-underline">
+          <a href="/iosplans" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full mx-auto sm:w-1/2">
               <img class="mx-auto z-50 px-4 sm:px-2" src="~/assets/images/10.png" />
             </div>
@@ -64,7 +64,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
-            <nuxt-link to="/plans" class="mx-auto details-three hover:underline text-white uppercased font-bold py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">More</nuxt-link>
+            <nuxt-link to="/iosplans" class="mx-auto details-three rounded hover:underline text-white uppercased font-bold py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">More</nuxt-link>
           </a>
         </div>
       </div>

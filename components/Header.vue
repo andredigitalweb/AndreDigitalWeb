@@ -41,13 +41,17 @@
             <li><NuxtLink to="/" class="px-4 md:p-4 py-3 px-0 block">Home</NuxtLink></li>
             <li><NuxtLink to="/about" class="px-4 md:p-4 py-3 px-0 block">About</NuxtLink></li>
             <li><NuxtLink to="/plans" class="px-4 md:p-4 py-3 px-0 block">Plans</NuxtLink></li>
-            <li><NuxtLink to="/contact" class="px-4 md:p-4 py-3 px-0 block">Contact</NuxtLink></li>
+            <li><NuxtLink to="#contact" class="px-4 md:p-4 py-3 px-0 block">Contact</NuxtLink></li>
           </ul>
         </nav>
       </div>
     </header>
   </div>
 </template>
+
+<script>
+
+</script>
 
 <style scoped>
 #menu-toggle:checked + #menu {

@@ -1,7 +1,7 @@
 <template>
   <div class="px-8">
     <h2
-        class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900"
+        class="my-4 text-4xl text-center text-gray-900"
       >
         Contact Us
       </h2>
@@ -11,7 +11,7 @@
         Got a technical issue? Want to send feedback? Need
         details about our Business plan? Let us know.
       </p>
-    <form class="w-full max-w-lg mx-auto">
+    <form name="contact" action="/success" method="POST" class="w-full max-w-lg mx-auto" data-netlify="true">
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <label class="block text-xs mb-2" for="business">
@@ -87,7 +87,7 @@
         <div class="md:w-1/3">
           <button
             class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            type="button"
+            type="submit"
           >
             Send message
           </button>
