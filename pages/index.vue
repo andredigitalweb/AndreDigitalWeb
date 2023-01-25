@@ -6,6 +6,6 @@
     <WhyUs />
     <CalltoAction />
     <Testimonials />
-    <TalkToUs />
+    <TalkToUs id="contact" />
   </div>
 </template>

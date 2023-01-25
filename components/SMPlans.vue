@@ -1,8 +1,8 @@
 <template>
     <section>
-      <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
+      <div class="container mt-4 mx-auto px-2 pt-4 pb-12 text-gray-800">
         <h2
-          class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900"
+          class="my-4 text-4xl text-center text-gray-900"
         >
           Choose Your Plan
         </h2>
