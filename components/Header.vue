@@ -36,12 +36,12 @@
       <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
         <nav class="px-8">
           <ul
-            class="md:flex items-center justify-between text-base text-white pt-4 md:pt-0"
+            class="md:flex items-center justify-between text-xl text-white pt-4 md:pt-0"
           >
-            <li><NuxtLink to="/" class="px-4 md:p-4 py-3 px-0 block">Home</NuxtLink></li>
-            <li><NuxtLink to="/about" class="px-4 md:p-4 py-3 px-0 block">About</NuxtLink></li>
-            <li><NuxtLink to="/plans" class="px-4 md:p-4 py-3 px-0 block">Plans</NuxtLink></li>
-            <li><NuxtLink to="#contact" class="px-4 md:p-4 py-3 px-0 block">Contact</NuxtLink></li>
+            <li><nuxt-link :to="{ path: '/',hash:''}" to="/" class="px-4 md:p-4 py-3 px-0 block">Home</nuxt-link></li>
+            <li><nuxt-link :to="{ path: '/about',hash:''}" to="/about" class="px-4 md:p-4 py-3 px-0 block">About</nuxt-link></li>
+            <li><nuxt-link :to="{ path: '/',hash:'#plans'}" to="#plans" class="px-4 md:p-4 py-3 px-0 block">Plans</nuxt-link></li>
+            <li><nuxt-link :to="{ path: '/',hash:'#contact'}" to="#contact" class="px-4 md:p-4 py-3 px-0 block">Contact</nuxt-link></li>
           </ul>
         </nav>
       </div>

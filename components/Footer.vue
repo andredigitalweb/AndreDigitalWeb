@@ -61,24 +61,21 @@
             <p class="uppercase text-gray-500 md:mb-6">Social</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
+                <a href="https://wa.me/message/SNDMUBOQXMZGL1" target="blank"
+                  class="no-underline hover:underline text-gray-800 hover:text-indigo-500"
+                  >Whatsapp</a
+                >
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="https://www.facebook.com/Andredigitalweb?mibextid=ZbWKwL" target="blank"
                   class="no-underline hover:underline text-gray-800 hover:text-indigo-500"
                   >Facebook</a
                 >
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
+                <a href="https://instagram.com/andredigitalweb?igshid=YmMyMTA2M2Y=" target="blank"
                   class="no-underline hover:underline text-gray-800 hover:text-indigo-500"
-                  >Linkedin</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-indigo-500"
-                  >Twitter</a
+                  >Instagram</a
                 >
               </li>
             </ul>
