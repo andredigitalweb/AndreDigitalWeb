@@ -40,10 +40,10 @@
             <div
               class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
             >
-              <div class="w-full pt-6 text-3xl font-bold text-center">
+              <!-- <div class="w-full pt-6 text-3xl font-bold text-center">
                 Rs.20000
                 <span class="text-base">/ month</span>
-              </div>
+              </div> -->
               <div class="flex items-center justify-center">
                 <nuxt-link
                   to="/booking"
@@ -78,10 +78,10 @@
             <div
               class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
             >
-              <div class="w-full pt-6 text-4xl font-bold text-center">
+              <!-- <div class="w-full pt-6 text-4xl font-bold text-center">
                 Rs.30000
                 <span class="text-base">/ month</span>
-              </div>
+              </div> -->
               <div class="flex items-center justify-center">
                 <nuxt-link
                   to="/booking"
@@ -117,10 +117,10 @@
             <div
               class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
             >
-              <div class="w-full pt-6 text-3xl font-bold text-center">
+              <!-- <div class="w-full pt-6 text-3xl font-bold text-center">
                 Rs.50000
                 <span class="text-base">/ month</span>
-              </div>
+              </div> -->
               <div class="flex items-center justify-center">
                 <nuxt-link
                   to="/booking"
