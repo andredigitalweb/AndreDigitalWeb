@@ -9,8 +9,11 @@
       Thank you for your interest, please provide below details to help you
       serve better.
     </p>
-    <form name="booking" action="/success" method="POST" class="w-full max-w-lg mx-auto" data-netlify="true">
+    <form name="booking" action="/success" method="POST" class="w-full max-w-lg mx-auto" data-netlify="true" data-netlify-honeypot="bot-field">
       <div class="flex flex-wrap -mx-3 mb-6">
+        <p hidden>
+          <label> Don’t fill this out: <input name="bot-field" /> </label>
+        </p>
         <div class="w-full px-3">
           <label class="block text-xs mb-2" for="email"> E-mail </label>
           <input
