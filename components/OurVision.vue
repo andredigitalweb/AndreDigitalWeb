@@ -8,13 +8,6 @@
             The ADWS Way
           </h1>
           <p class="text-center sm:text-left text-lg sm:text-xl mb-8">
-            <b>Our history:</b> Humble beginnings and a desire to provide
-            services that help businesses grow, lead us to start a dream.
-            Initially we offered free services to help businesses to cope up
-            from the devastating effects of the pandemic. Our dream journey was
-            not an easy path, a path only a few chose.
-          </p>
-          <p class="text-center sm:text-left text-lg sm:text-xl mb-8">
             <b>Our mission:</b> Businesses and marketing are loyal friends. We
             at Andre Digital Web Services bridge that gap and make it a strong
             lasting bond.
