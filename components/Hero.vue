@@ -19,3 +19,16 @@
     </div>
   </section>
 </template>
+<style scoped>
+.title-big {
+  font-family: "Agrandir", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  font-size: 70px;
+}
+
+@media (max-width: 640px) {
+  .title-big {
+    font-size: 50px;
+  }
+}
+</style>

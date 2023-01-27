@@ -36,12 +36,12 @@ body {
 .title-big {
   font-family: "Agrandir", Impact, Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 @media (max-width: 640px) {
   .title-big {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 </style>

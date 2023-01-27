@@ -11,11 +11,9 @@
         Got a technical issue? Want to send feedback? Need
         details about our Business plan? Let us know.
       </p>
-    <form name="contact" action="/success" method="POST" class="w-full max-w-lg mx-auto" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form name="contact" action="/success" method="post" class="w-full max-w-lg mx-auto" netlify netlify-honeypot="bot-field">
       <div class="flex flex-wrap -mx-3 mb-6">
-        <p hidden>
-          <label> Don’t fill this out: <input name="bot-field" /> </label>
-        </p>
+        <input type="hidden" name="form-name" value="contact" />
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <label class="block text-xs mb-2" for="business">
             Business name
@@ -32,7 +30,7 @@
           </label>
           <input
             class="appearance-none block w-full p-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300 focus:shadow-outline focus:outline-none"
-            id="contact"
+            id="mobile"
             type="text"
           />
         </div>
