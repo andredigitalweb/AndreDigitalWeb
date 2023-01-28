@@ -21,7 +21,7 @@
                 Quality Services
               </div>
               <p class="w-full text-gray-800 text-center text-md sm:text-lg mb-5">
-                No matter where you are, we've got you covered.
+                We follow quality management protocols to provide the best services.
               </p>
             </a>
           </div>
@@ -36,7 +36,7 @@
                 Value for Investment
               </div>
               <p class="w-full text-gray-800 text-center text-md sm:text-lg px-6 mb-5">
-                Virtual Assistance. Talk to us about any concerns, 24/7.
+                Low investment greater returns.
               </p>
             </a>
           </div>
@@ -51,7 +51,7 @@
                 Client Satisfaction
               </div>
               <p class="w-full text-gray-800 text-center text-md sm:text-lg px-6 mb-5">
-                Easy peasy UI. Our Interface is simple and easy to use.
+                Clients needs and greater satisfaction is our priority.
               </p>
             </a>
           </div>

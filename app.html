@@ -4,12 +4,13 @@
     {{ HEAD }}
   </head>
   <body {{ BODY_ATTRS }}>
-  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-    <input type="text" name="business" />
+  <form name="contactus" action="/success" netlify netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="contactus" />
+    <input type="text" name="business"/>
     <input type="text" name="mobile" />
     <input type="text" name="country" />
     <input type="text" name="state" />
-    <input type="email" name="email" />
+    <input type="text" name="email" />
     <input type="text" name="subject" />
     <textarea name="message"></textarea>
   </form>

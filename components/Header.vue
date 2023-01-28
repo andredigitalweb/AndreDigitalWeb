@@ -19,7 +19,8 @@
         </NuxtLink>
       </div>
 
-      <label for="menu-toggle" class="pointer-cursor md:hidden block pr-4">
+      <!-- 
+      <label for="menu-toggle hidden sm:w-flex" class="pointer-cursor md:hidden block pr-4">
         <svg
           class="fill-current text-white"
           xmlns="http://www.w3.org/2000/svg"
@@ -31,12 +32,12 @@
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
         </svg>
       </label>
-      <input class="hidden" type="checkbox" id="menu-toggle" />
+      <input class="hidden" type="checkbox" id="menu-toggle" /> -->
 
-      <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+      <div class="hidden lg:flex md:flex sm:flex" id="menu">
         <nav class="px-8">
           <ul
-            class="md:flex items-center justify-between text-xl text-white pt-4 md:pt-0"
+            class="hidden md:flex items-center justify-between text-xl text-white pt-4 md:pt-0"
           >
             <li><nuxt-link :to="{ path: '/',hash:''}" to="/" class="px-4 md:p-4 py-3 px-0 block">Home</nuxt-link></li>
             <li><nuxt-link :to="{ path: '/about',hash:''}" to="/about" class="px-4 md:p-4 py-3 px-0 block">About</nuxt-link></li>

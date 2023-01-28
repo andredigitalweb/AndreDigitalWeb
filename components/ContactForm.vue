@@ -1,9 +1,9 @@
 <template>
-  <div class="px-8">
+  <div>
     <h2
         class="my-4 text-4xl text-center text-gray-900"
       >
-        Contact Us
+        Contact / Booking form
       </h2>
       <p
         class="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl"
@@ -11,75 +11,134 @@
         Got a technical issue? Want to send feedback? Need
         details about our Business plan? Let us know.
       </p>
-    <form name="contact" action="/success" method="post" class="w-full max-w-lg mx-auto" netlify netlify-honeypot="bot-field">
+    <form
+      netlify
+      netlify-honeypot
+      name="contactus"
+      method="POST"
+      action="/success"
+      class="container w-1/2 mx-auto"
+    >
+      <p class="hidden">
+        <label>
+          Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+      </p>
+      <input type="hidden" name="form-name" value="contactus" />
       <div class="flex flex-wrap -mx-3 mb-6">
-        <input type="hidden" name="form-name" value="contact" />
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-          <label class="block text-xs mb-2" for="business">
+          <label class="block text-lg mb-2" for="business">
             Business name
           </label>
           <input
             class="appearance-none block w-full p-3 mb-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300 focus:shadow-outline focus:outline-none"
             id="business"
             type="text"
+            name="business"
           />
         </div>
         <div class="w-full md:w-1/2 px-3">
-          <label class="block text-xs mb-2" for="contact">
+          <label class="block text-lg mb-2" for="contact">
             Contact number
           </label>
           <input
             class="appearance-none block w-full p-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300 focus:shadow-outline focus:outline-none"
             id="mobile"
             type="text"
+            name="mobile"
           />
         </div>
       </div>
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-          <label class="block text-xs mb-2" for="country"> Country </label>
+          <label class="block text-lg mb-2" for="country"> Country </label>
           <input
             class="appearance-none block w-full p-3 mb-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300 focus:shadow-outline focus:outline-none"
             id="country"
             type="text"
-            placeholder="India"
+            name="country"
           />
         </div>
         <div class="w-full md:w-1/2 px-3">
-          <label class="block text-xs mb-2" for="state"> State </label>
+          <label class="block text-lg mb-2" for="state"> State </label>
           <input
             class="appearance-none block w-full p-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300 focus:shadow-outline focus:outline-none"
             id="state"
             type="text"
-            placeholder="Goa"
+            name="state"
           />
         </div>
       </div>
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3">
-          <label class="block text-xs mb-2" for="email"> E-mail </label>
+          <label class="block text-lg mb-2" for="email"> E-mail </label>
           <input
             class="appearance-none block w-full p-3 mb-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300 focus:shadow-outline focus:outline-none"
             id="email"
             type="email"
             placeholder="********@*****.**"
+            name="email"
           />
         </div>
       </div>
+
+      <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full md:w-1/3 px-3">
+          <label class="block text-lg mb-2" for="smplans">Social Media Plans</label>
+          <select
+            id="plans"
+            name="smplans"
+            class="block p-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300"
+          >
+            <option value="smnone" selected>None</option>
+            <option value="smpro">Pro Plan</option>
+            <option value="smcustom">Customised Plan</option>
+            <option value="smulti">Ultimate Plan</option>
+          </select>
+        </div>
+
+        <div class="w-full md:w-1/3 px-3">
+          <label class="block text-lg mb-2" for="webplans">Web Development Plans</label>
+          <select
+            id="plans"
+            name="webplans"
+            class="block p-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300"
+          >
+            <option value="webnone" selected>None</option>
+            <option value="webpro">Pro Plan</option>
+            <option value="webcustom">Customised Plan</option>
+            <option value="webulti">Ultimate Plan</option>
+          </select>
+        </div>
+
+        <div class="w-full md:w-1/3 px-3">
+          <label class="block text-lg mb-2" for="iosplans">iOS Development Plans</label>
+          <select
+            id="plans"
+            name="iosplans"
+            class="block p-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300"
+          >
+            <option value="none" selected>None</option>
+          </select>
+        </div>
+      </div>
+
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3">
-          <label class="block text-xs mb-2" for="subject"> Subject </label>
+          <label class="block text-lg mb-2" for="subject"> Subject </label>
           <input
             class="appearance-none block w-full p-3 mb-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300 focus:shadow-outline focus:outline-none"
             id="subject"
             type="text"
+            name="subject"
           />
         </div>
         <div class="w-full px-3">
-          <label class="block text-xs mb-2" for="message"> Message </label>
+          <label class="block text-lg mb-2" for="message"> Message </label>
           <textarea
             class="no-resize appearance-none block w-full p-3 mb-3 leading-tight h-48 resize-none text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300 focus:shadow-outline focus:outline-none"
             id="message"
+            name="message"
             placeholder="Your message"
           ></textarea>
         </div>
