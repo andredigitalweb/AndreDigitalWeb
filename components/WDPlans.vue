@@ -24,8 +24,8 @@
               <div class="p-8 text-3xl font-bold text-center border-b-4">
                 Basic
               </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Free domain &amp; hosting</li>
+              <ul class="w-full text-center text-lg">
+                <li class="border-b py-4">Free domain &amp; hosting for 1st year</li>
                 <li class="border-b py-4">2-5 page website</li>
                 <li class="border-b py-4">5 free changes yearly</li>
                 <li class="border-b py-4">
@@ -59,8 +59,8 @@
             >
               <div class="w-full p-8 text-3xl font-bold text-center">Advanced</div>
               <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-              <ul class="w-full text-center text-base font-bold">
-                <li class="border-b py-4">Free domain &amp; hosting</li>
+              <ul class="w-full text-center text-xl font-bold">
+                <li class="border-b py-4">Free domain &amp; hosting for 1st year</li>
                 <li class="border-b py-4">2-10 page website</li>
                 <li class="border-b py-4">10 free changes yearly</li>
                 <li class="border-b py-4">
@@ -95,8 +95,8 @@
               <div class="p-8 text-3xl font-bold text-center border-b-4">
                 Ultimate
               </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Free domain &amp; hosting</li>
+              <ul class="w-full text-center text-lg">
+                <li class="border-b py-4">Free domain &amp; hosting for 1st year</li>
                 <li class="border-b py-4">Large website</li>
                 <li class="border-b py-4">20 free changes yearly</li>
                 <li class="border-b py-4">
