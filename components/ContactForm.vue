@@ -14,7 +14,7 @@
     <form
       netlify
       netlify-honeypot
-      name="feedback"
+      name="contactus"
       method="POST"
       action="/success"
       class="container w-1/2 mx-auto"
@@ -24,7 +24,7 @@
           Don’t fill this out if you’re human: <input name="bot-field" />
         </label>
       </p>
-      <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="form-name" value="contactus" />
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <label class="block text-lg mb-2" for="business">
@@ -34,6 +34,7 @@
             class="appearance-none block w-full p-3 mb-3 text-sm text-gray-900 rounded-lg bg-gray-100 border-gray-300 focus:shadow-outline focus:outline-none"
             id="business"
             type="text"
+            name="business"
           />
         </div>
         <div class="w-full md:w-1/2 px-3">
