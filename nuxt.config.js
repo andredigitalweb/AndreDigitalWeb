@@ -4,7 +4,10 @@ export default defineNuxtConfig({
     target: 'static',
   
     head: {
-      title: 'AndreWeb',
+      title: 'Andre Digital Web Services',
+      keywords: 'Web',
+      description: 'We are a social media marketing and web development service provider small to large business in Goa. Our rates are very reasonable and providing high value to your business.',
+      author: 'Andre Digital Web Services',
       htmlAttrs: {
         lang: 'en'
       },
