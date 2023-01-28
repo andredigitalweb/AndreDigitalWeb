@@ -24,15 +24,15 @@
               <div class="p-8 text-3xl font-bold text-center border-b-4">
                 Customised
               </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Facebook & Instagram management</li>
-                <li class="border-b py-4">10 Designed posts monthly</li>
+              <ul class="w-full text-center text-lg px-2">
+                <li class="border-b py-4">Facebook &amp; Instagram management</li>
+                <li class="border-b py-4">__ Designed posts monthly</li>
                 <li class="border-b py-4">
                   10 Designed videos monthly with music
                 </li>
-                <li class="border-b py-4">10 Stories</li>
+                <li class="border-b py-4">__ Stories monthly</li>
                 <li class="border-b py-4">
-                  1000 Rs worth of paid advertisement
+                  __/- worth of paid advertisement
                 </li>
                 <li class="border-b py-4">Hashtag research and optimisation</li>
               </ul>
@@ -62,15 +62,15 @@
             >
               <div class="w-full p-8 text-3xl font-bold text-center">PRO</div>
               <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-              <ul class="w-full text-center text-base font-bold">
-                <li class="border-b py-4">Facebook & Instagram management</li>
-                <li class="border-b py-4">15 Designed posts monthly</li>
+              <ul class="w-full text-center text-xl px-2 font-bold">
+                <li class="border-b py-4">Facebook &amp; Instagram management</li>
+                <li class="border-b py-4">Free 16 Designed posts monthly</li>
                 <li class="border-b py-4">
-                  15 Designed videos monthly with music
+                  Free 8 Designed videos monthly with music monthly
                 </li>
-                <li class="border-b py-4">15 Stories</li>
+                <li class="border-b py-4">12 Stories monthly</li>
                 <li class="border-b py-4">
-                  1500 Rs worth of paid advertisement
+                  Free 4000/- worth of paid advertisement
                 </li>
                 <li class="border-b py-4">Hashtag research and optimisation</li>
               </ul>
@@ -101,15 +101,15 @@
               <div class="p-8 text-3xl font-bold text-center border-b-4">
                 Ultimate
               </div>
-              <ul class="w-full text-center text-sm">
+              <ul class="w-full text-center text-lg px-2">
                 <li class="border-b py-4">Facebook & Instagram management</li>
-                <li class="border-b py-4">30 Designed posts monthly</li>
+                <li class="border-b py-4">Free 28 Designed posts monthly</li>
                 <li class="border-b py-4">
-                  30 Designed videos monthly with music
+                  Free 14 Designed videos monthly with music monthly
                 </li>
-                <li class="border-b py-4">30 Stories</li>
+                <li class="border-b py-4">20 Stories monthly</li>
                 <li class="border-b py-4">
-                  3000 Rs worth of paid advertisement
+                  Free 7000/- worth of paid advertisement
                 </li>
                 <li class="border-b py-4">Hashtag research and optimisation</li>
               </ul>
