@@ -28,7 +28,7 @@
                 <li class="border-b py-4">Facebook &amp; Instagram management</li>
                 <li class="border-b py-4">__ Designed posts monthly</li>
                 <li class="border-b py-4">
-                   __ Designed videos monthly with music
+                   __ Designed videos with music monthly
                 </li>
                 <li class="border-b py-4">__ Stories monthly</li>
                 <li class="border-b py-4">
