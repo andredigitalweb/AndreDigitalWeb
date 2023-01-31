@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   
     head: {
       title: 'Andre Digital Web Services',
-      keywords: 'Web',
+      keywords: 'Web, digital, web design, web development, social media marketing, digital marketing',
       description: 'We are a social media marketing and web development service provider small to large business in Goa. Our rates are very reasonable and providing high value to your business.',
       author: 'Andre Digital Web Services',
       htmlAttrs: {
