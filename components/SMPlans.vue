@@ -28,7 +28,7 @@
                 <li class="border-b py-4">Facebook &amp; Instagram management</li>
                 <li class="border-b py-4">__ Designed posts monthly</li>
                 <li class="border-b py-4">
-                  10 Designed videos monthly with music
+                   __ Designed videos monthly with music
                 </li>
                 <li class="border-b py-4">__ Stories monthly</li>
                 <li class="border-b py-4">
@@ -66,7 +66,7 @@
                 <li class="border-b py-4">Facebook &amp; Instagram management</li>
                 <li class="border-b py-4">Free 16 Designed posts monthly</li>
                 <li class="border-b py-4">
-                  Free 8 Designed videos monthly with music monthly
+                  Free 8 Designed videos with music monthly
                 </li>
                 <li class="border-b py-4">12 Stories monthly</li>
                 <li class="border-b py-4">
@@ -105,7 +105,7 @@
                 <li class="border-b py-4">Facebook & Instagram management</li>
                 <li class="border-b py-4">Free 28 Designed posts monthly</li>
                 <li class="border-b py-4">
-                  Free 14 Designed videos monthly with music monthly
+                  Free 14 Designed videos with music monthly 
                 </li>
                 <li class="border-b py-4">20 Stories monthly</li>
                 <li class="border-b py-4">
