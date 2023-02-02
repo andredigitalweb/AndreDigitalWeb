@@ -1,509 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="utf-8" />
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nano Folio - Simple HTML Template</title>
+	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+	<link href="css/magnific-popup.min.css" rel="stylesheet">
+    <link href="css/tooplate-style.css" rel="stylesheet">
+<!--
 
-  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+Tooplate 2122 Nano Folio
 
-  <meta
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    name="viewport"
-  />
+https://www.tooplate.com/view/2122-nano-folio
 
-  <title>Homepage | Atlas</title>
-
-  <meta property="og:title" content="Homepage | Atlas Template" />
-
-  <meta property="og:locale" content="en_US" />
-
-  <link
-    rel="canonical"
-    href="https://atlas.tailwindmade.com/"
-  />
-
-  <meta
-    property="og:url"
-    content="https://atlas.tailwindmade.com/"
-  />
-
-  <meta
-    name="description"
-    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  />
-
-  <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
-
-  <meta property="og:site_name" content="Atlas Template" />
-
-  <meta property="og:image" content="https://atlas.tailwindmade.com/assets/img/social.jpg" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <meta name="twitter:site" content="@tailwindmade" />
-
-  <link
-    crossorigin="crossorigin"
-    href="https://fonts.gstatic.com"
-    rel="preconnect"
-  />
-
-  <link
-    as="style"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="preload"
-  />
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
-
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-  />
-
-  <link
-    crossorigin="anonymous"
-    href="/assets/styles/main.min.css"
-    media="screen"
-    rel="stylesheet"
-  />
-
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atom-one-dark.min.css"
-  />
-
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
-
-  <!--Alpine Js V3-->
-  <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+-->
 </head>
+<body>
+	<div class="tm-container-fluid">
+		<section class="tm-site-header tm-flex-center tm-mb-50 tm-bgcolor-1 tm-border-rounded">
+			<i class="fas fa-heart fa-3x"></i>
+			<h1>Nano Folio</h1>
+		</section>
 
+		<section class="tm-about tm-mb-80 tm-p-50 tm-bgcolor-2 tm-border-rounded">
+			<div class="tm-about-header tm-flex-center">
+				<i class="fas fa-users fa-2x"></i>
+				<h2>About Us</h2>
+			</div>
+			<div class="tm-about-text">
+				<p class="tm-mb-40">Nano Folio is simple HTML template with a minimal very light-weight custom CSS file. Max content width is 940 pixels. You can easily change the width or any part in this template. Gallery comes with a pop-up image and simple categories.</p>
+				<p class="tm-mb-0">Please support Tooplate website by telling your friends about it. That is going to be very helpful for us. Feel free to <a rel="nofollow" href="https://www.tooplate.com/contact" target="_blank">message us</a> via email or live chat if you have anything to say.</p>
+			</div>
+		</section>
 
-  <body
-    x-data="global()"
-    x-init="themeInit()"
-    :class="isMobileMenuOpen ? 'max-h-screen overflow-hidden relative' : ''"
-    class="dark:bg-primary"
-  >
-    
-    <div id="main">
-      <div class="container mx-auto">
-  <div class="flex items-center justify-between py-6 lg:py-10">
-    <a href="/" class="flex items-center">
-      <span href="/" class="mr-2">
-        <img src="/assets/img/logo.svg" alt="logo" />
-      </span>
-      <p
-        class="hidden font-body text-2xl font-bold text-primary dark:text-white lg:block"
-      >
-        Sanjeev Chavan
-      </p>
-    </a>
-    <div class="flex items-center lg:hidden">
-      <i
-        class="bx mr-8 cursor-pointer text-3xl text-primary dark:text-white"
-        @click="themeSwitch()"
-        :class="isDarkMode ? 'bxs-sun' : 'bxs-moon'"
-      ></i>
+		<div class="tm-gallery-section tm-mb-80">
+			<ul class="filters-button-group tm-mb-40">
+				<li><a href="#" data-filter=".city">City</a></li>
+				<li><a href="#" data-filter=".nature">Nature</a></li>
+				<li><a href="#" data-filter=".portraits">Portraits</a></li>
+				<li><a href="#" class="active" data-filter="*">Show All</a></li>
+			</ul>
+			<div class="tm-gallery">				
+				<div class="tm-gallery-item city portraits">
+		            <a href="img/img-01.jpg">
+		            	<img src="img/tn-img-01.jpg" alt="City Scape" class="img-fluid" />
+		            </a>
+		        </div>
+				<div class="tm-gallery-item portraits">
+		            <a href="img/img-02.jpg">
+		            	<img src="img/tn-img-02.jpg" alt="Beautiful Lady" class="img-fluid" />
+		            </a>
+		        </div>
+				<div class="tm-gallery-item city">
+		            <a href="img/img-03.jpg">
+		            	<img src="img/tn-img-03.jpg" alt="City over cloud" class="img-fluid" />
+		            </a>
+		        </div>
+		        <div class="tm-gallery-item nature">
+		            <a href="img/img-04.jpg">
+		            	<img src="img/tn-img-04.jpg" alt="Autumn Forest" class="img-fluid" />
+		            </a>
+		        </div>
+				<div class="tm-gallery-item city">
+		            <a href="img/img-05.jpg">
+		            	<img src="img/tn-img-05.jpg" alt="Skyscrapers Reflected" class="img-fluid" />
+		            </a>
+		        </div>
+				<div class="tm-gallery-item city">
+		            <a href="img/img-06.jpg">
+		            	<img src="img/tn-img-06.jpg" alt="City Night" class="img-fluid" />
+		            </a>
+		        </div>
+		        <div class="tm-gallery-item nature portraits">
+		            <a href="img/img-07.jpg">
+		            	<img src="img/tn-img-07.jpg" alt="Gallery item" class="img-fluid" />
+		            </a>
+		        </div>
+				<div class="tm-gallery-item nature">
+		            <a href="img/img-08.jpg">
+		            	<img src="img/tn-img-08.jpg" alt="Gallery item" class="img-fluid" />
+		            </a>
+		        </div>
+				<div class="tm-gallery-item nature">
+		            <a href="img/img-09.jpg">
+		            	<img src="img/tn-img-09.jpg" alt="Gallery item" class="img-fluid" />
+		            </a>
+		        </div>
+		        <div class="tm-gallery-item nature portraits">
+		            <a href="img/img-10.jpg">
+		            	<img src="img/tn-img-10.jpg" alt="Gallery item" class="img-fluid" />
+		            </a>
+		        </div>
+				<div class="tm-gallery-item nature">
+		            <a href="img/img-11.jpg">
+		            	<img src="img/tn-img-11.jpg" alt="Gallery item" class="img-fluid" />
+		            </a>
+		        </div>
+				<div class="tm-gallery-item portraits">
+		            <a href="img/img-12.jpg">
+		            	<img src="img/tn-img-12.jpg" alt="Gallery item" class="img-fluid" />
+		            </a>
+		        </div>
+			</div>			
+		</div>
 
-      <svg
-        width="24"
-        height="15"
-        xmlns="http://www.w3.org/2000/svg"
-        @click="isMobileMenuOpen = true"
-        class="fill-current text-primary dark:text-white"
-      >
-        <g fill-rule="evenodd">
-          <rect width="24" height="3" rx="1.5" />
-          <rect x="8" y="6" width="16" height="3" rx="1.5" />
-          <rect x="4" y="12" width="20" height="3" rx="1.5" />
-        </g>
-      </svg>
-    </div>
-    <div class="hidden lg:block">
-      <ul class="flex items-center">
-        
-        <li class="group relative mr-6 mb-1">
-          <div
-            class="absolute left-0 bottom-0 z-20 h-0 w-full opacity-75 transition-all group-hover:h-2 group-hover:bg-yellow"
-          ></div>
-          <a
-            href="/"
-            class="relative z-30 block px-2 font-body text-lg font-medium text-primary transition-colors group-hover:text-green dark:text-white dark:group-hover:text-secondary"
-            >Intro</a
-          >
-        </li>
-        
-        <li class="group relative mr-6 mb-1">
-          <div
-            class="absolute left-0 bottom-0 z-20 h-0 w-full opacity-75 transition-all group-hover:h-2 group-hover:bg-yellow"
-          ></div>
-          <a
-            href="/blog"
-            class="relative z-30 block px-2 font-body text-lg font-medium text-primary transition-colors group-hover:text-green dark:text-white dark:group-hover:text-secondary"
-            >Blog</a
-          >
-        </li>
-        
-        <li class="group relative mr-6 mb-1">
-          <div
-            class="absolute left-0 bottom-0 z-20 h-0 w-full opacity-75 transition-all group-hover:h-2 group-hover:bg-yellow"
-          ></div>
-          <a
-            href="/uses"
-            class="relative z-30 block px-2 font-body text-lg font-medium text-primary transition-colors group-hover:text-green dark:text-white dark:group-hover:text-secondary"
-            >Uses</a
-          >
-        </li>
-        
-        <li class="group relative mr-6 mb-1">
-          <div
-            class="absolute left-0 bottom-0 z-20 h-0 w-full opacity-75 transition-all group-hover:h-2 group-hover:bg-yellow"
-          ></div>
-          <a
-            href="/contact"
-            class="relative z-30 block px-2 font-body text-lg font-medium text-primary transition-colors group-hover:text-green dark:text-white dark:group-hover:text-secondary"
-            >Contact</a
-          >
-        </li>
-        
-        <li>
-          <i
-            class="bx cursor-pointer text-3xl text-primary dark:text-white"
-            @click="themeSwitch()"
-            :class="isDarkMode ? 'bxs-sun' : 'bxs-moon'"
-          ></i>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+		<section class="tm-contact tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+			<div class="tm-contact-header tm-flex-center">
+				<i class="fas fa-map-pin fa-3x"></i>
+				<h2>Contact</h2>
+			</div>
+			<div class="tm-contact-info">
+				<address class="tm-mb-30">
+					120 Curabitur sed tortor ultrices,
+					congue odio eget, posuere urna.
+					Praesent at rhoncus 10680
+				</address>
+				<div class="tm-text-white tm-mb-40">Tel: <a href="tel:0100200340" class="tm-link-white">010-020-0340</a></div>
+				<div class="tm-flex">
+					<a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a>
+					<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a>
+					<a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="tm-contact-form-container">
+				<form id="contact-form" action="" method="POST" class="tm-contact-form">
+		          	<input type="text" name="name" placeholder="name" required="" />
+		          	<input type="email" name="email" placeholder="email" required="" />
+		          	<textarea rows="5" name="message" class="tm-mb-30" placeholder="message" required=""></textarea>		          	
+		          	<button type="submit" class="tm-right tm-btn-submit">send</button>          	
+		        </form>    
+			</div>
+		</section>
 
-<div
-  class="pointer-events-none fixed inset-0 z-50 flex bg-black bg-opacity-80 opacity-0 transition-opacity lg:hidden"
-  :class="isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : ''"
->
-  <div class="ml-auto w-2/3 bg-green p-4 md:w-1/3">
-    <i
-      class="bx bx-x absolute top-0 right-0 mt-4 mr-4 text-4xl text-white"
-      @click="isMobileMenuOpen = false"
-    ></i>
-    <ul class="mt-8 flex flex-col">
-      
-      <li class="">
-        <a
-          href="/"
-          class="mb-3 block px-2 font-body text-lg font-medium text-white"
-          >Intro</a
-        >
-      </li>
-      
-      <li class="">
-        <a
-          href="/blog"
-          class="mb-3 block px-2 font-body text-lg font-medium text-white"
-          >Blog</a
-        >
-      </li>
-      
-      <li class="">
-        <a
-          href="/uses"
-          class="mb-3 block px-2 font-body text-lg font-medium text-white"
-          >Uses</a
-        >
-      </li>
-      
-      <li class="">
-        <a
-          href="/contact"
-          class="mb-3 block px-2 font-body text-lg font-medium text-white"
-          >Contact</a
-        >
-      </li>
-      
-    </ul>
-  </div>
-</div>
+		<footer class="tm-footer">
+			Copyright 2020 Nano Folio - Design: <a rel="sponsored" href="https://www.tooplate.com" class="tm-link-gray">Tooplate</a>
+		</footer>
+	</div>
 
+	<script src="js/jquery.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script>
+		$(function(){
+		  	// Init the image gallery
+		  	var $gallery = $(".tm-gallery").isotope({
+		    	itemSelector: ".tm-gallery-item",
+		    	layoutMode: "fitRows"
+		  	});
+		  
+		  	// Layout Isotope after each image loads
+		  	$gallery.imagesLoaded().progress(function() {
+		    	$gallery.isotope("layout");
+		  	});
 
-      <div><div class="container mx-auto">
-  <div class="border-b border-grey-lighter py-16 lg:py-20">
-    <div>
-      <img src="/assets/img/author.png" class="h-16 w-16" alt="author" />
-    </div>
-    <h1
-      class="pt-3 font-body text-4xl font-semibold text-primary dark:text-white md:text-5xl lg:text-6xl"
-    >
-      Hi, I’m John Doe.
-    </h1>
-    <p class="pt-3 font-body text-xl font-light text-primary dark:text-white">
-      A software engineer and open-source advocate enjoying the sunny life in Barcelona, Spain.
-    </p>
-    <a
-      href="/"
-      class="mt-12 block bg-secondary px-10 py-4 text-center font-body text-xl font-semibold text-white transition-colors hover:bg-green sm:inline-block sm:text-left sm:text-2xl"
-    >
-      Say Hello!
-    </a>
-  </div>
+		  	$(".filters-button-group").on("click", "a", function(e) {
+		  		e.preventDefault();
+			    var filterValue = $(this).attr("data-filter");
+			    $gallery.isotope({ filter: filterValue });
+			    $('.filters-button-group a').removeClass('active');
+			    $(this).addClass('active');
+			});
 
-  <div class="border-b border-grey-lighter py-16 lg:py-20">
-    <div class="flex items-center pb-6">
-      <img src="/assets/img/icon-story.png" alt="icon story" />
-      <h3
-        class="ml-3 font-body text-2xl font-semibold text-primary dark:text-white"
-      >
-        My Story
-      </h3>
-    </div>
-    <div>
-      <p class="font-body font-light text-primary dark:text-white">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus
-        mattis molestie. Et leo duis ut diam. Sit amet tellus cras adipiscing
-        enim eu turpis. Adipiscing at in tellus integer feugiat.
-        <br />
-        <br />
-        Maecenas accumsan lacus vel facilisis. Eget egestas purus viverra
-        accumsan in nisl nisi scelerisque eu. Non tellus orci ac auctor augue
-        mauris augue neque gravida. Auctor augue mauris augue neque gravida in
-        fermentum et sollicitudin. Tempus urna et pharetra pharetra massa massa
-        ultricies mi quis. Amet mauris commodo quis imperdiet massa. Integer
-        vitae justo eget magna fermentum iaculis eu non.
-      </p>
-    </div>
-  </div>
-
-  <div class="py-16 lg:py-20">
-    <div class="flex items-center pb-6">
-      <img src="/assets/img/icon-story.png" alt="icon story" />
-      <h3
-        class="ml-3 font-body text-2xl font-semibold text-primary dark:text-white"
-      >
-        My Story
-      </h3>
-      <a
-        href="/blog"
-        class="flex items-center pl-10 font-body italic text-green transition-colors hover:text-secondary dark:text-green-light dark:hover:text-secondary"
-      >
-        All posts
-        <img
-          src="/assets/img/long-arrow-right.png"
-          class="ml-3"
-          alt="arrow right"
-        />
-      </a>
-    </div>
-    <div class="pt-8">
-      <div class="border-b border-grey-lighter pb-8">
-        <span
-          class="mb-4 inline-block rounded-full bg-green-light px-2 py-1 font-body text-sm text-green"
-          >category</span
-        >
-        <a
-          href="/post"
-          class="block font-body text-lg font-semibold text-primary transition-colors hover:text-green dark:text-white dark:hover:text-secondary"
-          >Quis hendrerit dolor magna eget est lorem ipsum dolor sit</a
-        >
-        <div class="flex items-center pt-4">
-          <p class="pr-2 font-body font-light text-primary dark:text-white">
-            July 19, 2020
-          </p>
-          <span class="font-body text-grey dark:text-white">//</span>
-          <p class="pl-2 font-body font-light text-primary dark:text-white">
-            4 min read
-          </p>
-        </div>
-      </div>
-      <div class="border-b border-grey-lighter pt-10 pb-8">
-        <div class="flex items-center">
-          <span
-            class="mb-4 inline-block rounded-full bg-grey-light px-2 py-1 font-body text-sm text-blue-dark"
-            >category</span
-          >
-          <span
-            class="mb-4 ml-4 inline-block rounded-full bg-yellow-light px-2 py-1 font-body text-sm text-yellow-dark"
-            >category</span
-          >
-        </div>
-        <a
-          href="/post"
-          class="block font-body text-lg font-semibold text-primary transition-colors hover:text-green dark:text-white dark:hover:text-secondary"
-          >Senectus et netus et malesuada fames ac turpis egestas integer</a
-        >
-        <div class="flex items-center pt-4">
-          <p class="pr-2 font-body font-light text-primary dark:text-white">
-            June 30, 2020
-          </p>
-          <span class="font-body text-grey dark:text-white">//</span>
-          <p class="pl-2 font-body font-light text-primary dark:text-white">
-            5 min read
-          </p>
-        </div>
-      </div>
-      <div class="border-b border-grey-lighter pt-10 pb-8">
-        <span
-          class="mb-4 inline-block rounded-full bg-blue-light px-2 py-1 font-body text-sm text-blue"
-          >category</span
-        >
-        <a
-          href="/post"
-          class="block font-body text-lg font-semibold text-primary transition-colors hover:text-green dark:text-white dark:hover:text-secondary"
-          >Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies</a
-        >
-        <div class="flex items-center pt-4">
-          <p class="pr-2 font-body font-light text-primary dark:text-white">
-            June 26, 2020
-          </p>
-          <span class="font-body text-grey dark:text-white">//</span>
-          <p class="pl-2 font-body font-light text-primary dark:text-white">
-            3 min read
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="pb-16 lg:pb-20">
-    <div class="flex items-center pb-6">
-      <img src="/assets/img/icon-project.png" alt="icon story" />
-      <h3
-        class="ml-3 font-body text-2xl font-semibold text-primary dark:text-white"
-      >
-        My Projects
-      </h3>
-    </div>
-    <div>
-      
-      <a
-        href=" / "
-        class="mb-6 flex items-center justify-between border border-grey-lighter px-4 py-4 sm:px-6"
-      >
-        <span class="w-9/10 pr-8">
-          <h4
-            class="font-body text-lg font-semibold text-primary dark:text-white"
-          >
-            TailwindCSS
-          </h4>
-          <p class="font-body font-light text-primary dark:text-white">
-            Rapidly build modern websites without ever leaving your HTML.
-          </p>
-        </span>
-        <span class="w-1/10">
-          <img src="/assets/img/chevron-right.png" class="mx-auto" alt="chevron right" />
-        </span>
-      </a>
-      
-      <a
-        href=" / "
-        class="mb-6 flex items-center justify-between border border-grey-lighter px-4 py-4 sm:px-6"
-      >
-        <span class="w-9/10 pr-8">
-          <h4
-            class="font-body text-lg font-semibold text-primary dark:text-white"
-          >
-            Maizzle
-          </h4>
-          <p class="font-body font-light text-primary dark:text-white">
-            Framework for Rapid Email Prototyping
-          </p>
-        </span>
-        <span class="w-1/10">
-          <img src="/assets/img/chevron-right.png" class="mx-auto" alt="chevron right" />
-        </span>
-      </a>
-      
-      <a
-        href=" / "
-        class="mb-6 flex items-center justify-between border border-grey-lighter px-4 py-4 sm:px-6"
-      >
-        <span class="w-9/10 pr-8">
-          <h4
-            class="font-body text-lg font-semibold text-primary dark:text-white"
-          >
-            Alpine.js
-          </h4>
-          <p class="font-body font-light text-primary dark:text-white">
-            Think of it like Tailwind for JavaScript.
-          </p>
-        </span>
-        <span class="w-1/10">
-          <img src="/assets/img/chevron-right.png" class="mx-auto" alt="chevron right" />
-        </span>
-      </a>
-      
-      <a
-        href=" / "
-        class="mb-6 flex items-center justify-between border border-grey-lighter px-4 py-4 sm:px-6"
-      >
-        <span class="w-9/10 pr-8">
-          <h4
-            class="font-body text-lg font-semibold text-primary dark:text-white"
-          >
-            PostCSS
-          </h4>
-          <p class="font-body font-light text-primary dark:text-white">
-            A tool for transforming CSS with JavaScript
-          </p>
-        </span>
-        <span class="w-1/10">
-          <img src="/assets/img/chevron-right.png" class="mx-auto" alt="chevron right" />
-        </span>
-      </a>
-      
-    </div>
-  </div>
-</div>
-</div>
-
-      <div class="container mx-auto">
-  <div
-    class="flex flex-col items-center justify-between border-t border-grey-lighter py-10 sm:flex-row sm:py-12"
-  >
-    <div class="mr-auto flex flex-col items-center sm:flex-row">
-      <a href="/" class="mr-auto sm:mr-6">
-        <img src="/assets/img/logo.svg" alt="logo" />
-      </a>
-      <p class="pt-5 font-body font-light text-primary dark:text-white sm:pt-0">
-        ©2020 John Doe.
-      </p>
-    </div>
-    <div class="mr-auto flex items-center pt-5 sm:mr-0 sm:pt-0">
-      
-      <a href="https://github.com/ " target="_blank">
-        <i
-          class="text-4xl text-primary dark:text-white pl-5 hover:text-secondary dark:hover:text-secondary transition-colors bx bxl-github"
-        ></i>
-      </a>
-      
-      <a href="https://codepen.io/ " target="_blank">
-        <i
-          class="text-4xl text-primary dark:text-white pl-5 hover:text-secondary dark:hover:text-secondary transition-colors bx bxl-codepen"
-        ></i>
-      </a>
-      
-      <a href="https://www.linkedin.com/ " target="_blank">
-        <i
-          class="text-4xl text-primary dark:text-white pl-5 hover:text-secondary dark:hover:text-secondary transition-colors bx bxl-linkedin"
-        ></i>
-      </a>
-      
-    </div>
-  </div>
-</div>
-
-    </div>
-
-    <script src="/assets/js/main.js"></script>
-
-    
-  </body>
+		  	// Magnific Pop up
+		  	$('.tm-gallery').magnificPopup({
+		  		delegate: 'a',
+			  	type: 'image',
+				  gallery: { enabled: true }
+			});
+		});
+	</script>
+</body>
 </html>
