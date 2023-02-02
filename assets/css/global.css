@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Agrandir';
+    src: url('~/assets/fonts/Agrandir/Agrandir-Regular.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    src: url('~/assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Lato-Light';
+    src: url('~/assets/fonts/Lato/Lato-Light.ttf') format('truetype');
+  }
