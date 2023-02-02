@@ -1,5 +1,1 @@
-node_modules/
-.vscode/
-.output/
-.nuxt/
-package-lock.json
+node_modules
