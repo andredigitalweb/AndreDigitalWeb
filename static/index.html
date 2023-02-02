@@ -4,7 +4,7 @@
     {{ HEAD }}
   </head>
   <body {{ BODY_ATTRS }}>
-  <form name="contact-form" action="/success" netlify netlify-honeypot="bot-field" hidden>
+  <form name="contact-form" action="/success" data-netlify="true">
     <input type="hidden" name="form-name" value="contact" />
     <input type="text" name="business"/>
     <input type="text" name="mobile" />
