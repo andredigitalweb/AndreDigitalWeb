@@ -12,12 +12,11 @@
         details about our Business plan? Let us know.
       </p>
     <form
-      netlify
-      netlify-honeypot
       name="contact-form"
       method="POST"
       action="/success"
       class="container w-1/2 mx-auto"
+      data-netlify="true"
     >
       <p class="hidden">
         <label>
