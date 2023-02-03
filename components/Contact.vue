@@ -11,7 +11,7 @@
           Got a technical issue? Want to send feedback? Need
           details about our Business plan? Let us know.
         </p>
-        <form action="https://public.herotofu.com/v1/e9fd1230-a393-11ed-a31e-753411848f80" method="post">
+        <form action="https://public.herotofu.com/v1/e9fd1230-a393-11ed-a31e-753411848f80" method="post" class="container w-1/2 mx-auto">
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label class="block text-lg mb-2" for="business">
